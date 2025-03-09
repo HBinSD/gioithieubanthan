@@ -32,6 +32,7 @@
     background-color: white;
     padding: 20px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .maincontent1, .maincontent2 {
