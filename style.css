@@ -1,0 +1,202 @@
+@font-face {
+    font-family: roboto;
+    src: url(https://fonts.googleapis.com/css2?family=Liter&family=Roboto+Slab:wght@100..900&display=swap);
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    height: 56px;
+    align-content: center;
+    background-color: pink;
+    font-family: roboto, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+.header h1 {
+    text-align: center;
+    line-height: 56px;
+    
+}
+
+.maincontent {
+    height: fit-content;
+    width: auto;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+}
+
+.maincontent1, .maincontent2 {
+    height: 500px;
+    width: auto;
+    background-color: pink;
+    padding: 20px;
+    width: 600px;
+    height: 500px;
+    margin: 10px;
+}
+
+
+
+.maincontent1, .maincontent2 {
+    box-shadow: 2px 2px 5px;
+    -moz-box-shadow: 2px 2px 5px;
+    -webkit-box-shadow: 2px 2px 5px;
+    -o-box-shadow: 2px 2px 5px;
+    -ms-box-shadow: 2px 2px 5px;
+    margin-bottom: 20px;
+}
+
+.box1, .box2 {
+    font-weight: bold;
+    height: 20px;
+    width: auto;
+    padding: 20px;
+    font-size: 30px;
+    background-color: pink;
+    border-bottom: white 2px solid;
+}
+
+.box1 h4, .box2 h4 {
+    color: white;
+    text-align: center;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.imgboxandtext {
+    display: block;
+    background-color: pink;
+    height: 230px;
+    width: auto;
+    margin: 25px 25px 25px 0px;
+    display: flex;
+}
+
+.imgboxandtext .pic {
+    height: 230px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.imgboxandtext .pic img{
+    height: 230px;
+    width: 200px;
+}
+
+.imgboxandtext .text{
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: 20px;
+    width: auto;
+    line-height: 30px;
+}
+
+span {
+    font-weight: bold;
+}
+
+#last {
+    border-bottom: 2px solid white;
+}
+
+.linksocial {
+    width: auto;
+    height: 50px;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.linksocial li {
+    display: inline-block;
+}
+
+#fb {
+    background-color: #0f94f2;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#insta {
+    background-color: rgb(253, 46, 123);
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.linksocial li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.linksocial #fb:hover, #insta:hover {
+    opacity: 0.5;
+}
+
+.text2 {
+    display: block;
+    background-color: pink;
+    height: 100px;
+    width: auto;
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+
+.text2 li, .text3 li {
+    margin-left: 30px;
+    line-height: 30px;
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+}
+
+.text3 {
+    display: block;
+    background-color: pink;
+    height: 200px;
+    width: auto;
+    margin-top: 15px;
+}
+
+.button {
+    align-content: center;
+}
+
+.buttonclick {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-content: center;
+}
+
+.button a{
+    background-color: pink;
+    border: none;
+    color: white;
+    align-content: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
+.button a:hover {
+    opacity: 0.5;
+}
