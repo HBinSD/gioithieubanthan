@@ -7,7 +7,9 @@
 * {
     padding: 0px;
     margin: 0px;
+
 }
+
 
 .header {
     height: 56px;
@@ -17,31 +19,71 @@
     font-size: 15px;
     color: white;
     margin-bottom: 20px;
+    display: flex;
+}
+
+
+.header h1 {
+    margin-left: 20px;
+    line-height: 56px;
+    width: 280px;
+}
+
+.dropbox h1 {
+    width: 120px;    
+}
+
+.dropbox {
+    position: relative;
+    display: inline-block;
+}
+
+#dropdown-content {
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+.dropbox:hover {
+    background-color: violet;
+    border: 1px solid rgb(245, 198, 215);
+}
+
+.dropbox:hover #dropdown-content {
+    display: block;
     
 }
 
-.header h1 {
-    text-align: center;
-    line-height: 56px;
-    
+#dropdownbaitap {
+    background-color: pink;
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 20px;
+    font-size: 18px;
+    width: 100px;
+    border: 1px solid rgb(245, 198, 215);
+}
+#dropdownbaitap:hover {
+    background-color: violet;
 }
 
 .maincontent {
     height: fit-content;
     width: auto;
     background-color: white;
-    padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
 }
 
 .maincontent1, .maincontent2 {
-    height: 500px;
     width: auto;
     background-color: pink;
     padding: 20px;
     width: 600px;
-    height: 500px;
+    height: auto;
     margin: 10px;
 }
 
@@ -110,16 +152,11 @@ span {
     border-bottom: 2px solid white;
 }
 
-.linksocial {
-    width: auto;
-    height: 50px;
-    align-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 .linksocial li {
     display: inline-block;
+    align-content: center;
+    height: 70px;
 }
 
 #fb {
