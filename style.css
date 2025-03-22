@@ -13,228 +13,186 @@
 
 .header {
     height: 56px;
-    align-content: center;
     background-color: pink;
     font-family: roboto, sans-serif;
     font-size: 15px;
     color: white;
     margin-bottom: 20px;
-    display: flex;
+    position: sticky;
+    top: 0px;
+    width: auto;
+    text-align: center;
+    align-content: center;
 }
 
 
 .header h1 {
-    margin-left: 20px;
     line-height: 56px;
-    width: 280px;
 }
 
-.dropbox h1 {
-    width: 120px;    
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.dropbox {
-    position: relative;
-    display: inline-block;
-}
-
-#dropdown-content {
-    position: absolute;
-    display: none;
-    z-index: 1;
-}
-
-.dropbox:hover {
-    background-color: violet;
-    border: 1px solid rgb(245, 198, 215);
-}
-
-.dropbox:hover #dropdown-content {
-    display: block;
-    
-}
-
-#dropdownbaitap {
+.box1, .box2, .box3 {
     background-color: pink;
-    display: block;
+    max-width: 700px;
+    width: 480px;
+    padding: 15px;
+    height: 400px;
+    margin: 10px 0px 10px 0px;
+}
+
+.body {
+    width: auto;
+    padding: 5px;
+    display: flex;
+}
+
+.head {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+
+
+
+.info {
+    color: white;
+    padding: 0px 0px 10px 0px;
+    margin: 8px 8px;
+    font-size: 22px;
+    padding: 8px;
+    height: fit-content;
+}
+
+.info img {
+    float: left;
+    width: 180px;
+    margin-right: 8px;
+}
+
+.link-social {
+    display: inline-block;
+    height: 50px;
+    align-content: center;
+    width: auto;
+}
+
+#facebook {
+    background-color: #0f94f2;
+    padding: 12px;
+    border-radius: 5px;
     color: white;
     text-decoration: none;
-    margin-left: 50px;
-    padding: 20px;
-    font-size: 18px;
-    width: 100px;
-    border: 1px solid rgb(245, 198, 215);
-}
-#dropdownbaitap:hover {
-    background-color: violet;
-}
-
-.maincontent {
-    height: fit-content;
-    width: auto;
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-}
-
-.maincontent1, .maincontent2 {
-    width: auto;
-    background-color: pink;
-    padding: 20px;
-    width: 600px;
-    height: auto;
-    margin: 10px;
-}
-
-
-
-.maincontent1, .maincontent2 {
-    box-shadow: 2px 2px 5px;
-    -moz-box-shadow: 2px 2px 5px;
-    -webkit-box-shadow: 2px 2px 5px;
-    -o-box-shadow: 2px 2px 5px;
-    -ms-box-shadow: 2px 2px 5px;
-    margin-bottom: 20px;
-}
-
-.box1, .box2 {
-    font-weight: bold;
-    height: 20px;
-    width: auto;
-    padding: 20px;
-    font-size: 30px;
-    background-color: pink;
-    border-bottom: white 2px solid;
-}
-
-.box1 h4, .box2 h4 {
-    color: white;
-    text-align: center;
-    font-family: roboto, sans-serif;
-    font-weight: bold;
-    line-height: 20px;
-}
-
-.imgboxandtext {
-    display: block;
-    background-color: pink;
-    height: 230px;
-    width: auto;
-    margin: 25px 25px 25px 0px;
-    display: flex;
-}
-
-.imgboxandtext .pic {
-    height: 230px;
-    width: 200px;
-    margin-right: 20px;
-}
-
-.imgboxandtext .pic img{
-    height: 230px;
-    width: 200px;
-}
-
-.imgboxandtext .text{
-    color: white;
-    font-family: roboto, sans-serif;
     font-size: 20px;
-    width: auto;
-    line-height: 30px;
+    margin: 12px;
+}
+
+#instagram {
+    background-color: rgb(253, 46, 123);
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 12px;
 }
 
 span {
     font-weight: bold;
+    font-style: italic;
 }
 
-#last {
-    border-bottom: 2px solid white;
-}
-
-
-.linksocial li {
-    display: inline-block;
-    align-content: center;
-    height: 70px;
-}
-
-#fb {
-    background-color: #0f94f2;
-    padding: 20px;
-    margin-right: 10px;
-    border-radius: 5px;
-}
-
-#insta {
-    background-color: rgb(253, 46, 123);
-    padding: 20px;
-    margin-right: 10px;
-    border-radius: 5px;
-}
-
-.linksocial li a {
+.box2 {
     color: white;
-    text-decoration: none;
-    font-size: 18px;
-    
+    font-size: 22px;
 }
 
-.linksocial #fb:hover, #insta:hover {
-    opacity: 0.5;
+.box2 li {
+    padding: 0px 10px 5px 0px;
+    list-style-type: none;
 }
 
-.text2 {
-    display: block;
-    background-color: pink;
-    height: 100px;
-    width: auto;
-    margin: 10px 0px 0px 0px;
-    display: flex;
-    border-bottom: 1px solid white;
-}
-
-.text2 li, .text3 li {
-    margin-left: 30px;
-    line-height: 30px;
-    color: white;
-    font-family: roboto, sans-serif;
-    font-size: 18px;
-}
-
-.text3 {
-    display: block;
-    background-color: pink;
-    height: 200px;
-    width: auto;
-    margin-top: 15px;
-}
-
-.button {
-    align-content: center;
-}
-
-.buttonclick {
-    margin-left: auto;
-    margin-right: auto;
+h4 {
     text-align: center;
-    align-content: center;
-}
-
-.button a{
-    background-color: pink;
-    border: none;
+    padding: 5px;
+    margin-bottom: 8px;
     color: white;
-    align-content: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-    padding: 8px 16px;
+    font-size: 22px;
 }
 
-.button a:hover {
-    opacity: 0.5;
+hr {
+    background-color: white;
+    margin: 2px;
+}
+
+.link {
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.link li {
+    list-style-type: none;
+    width: auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.link li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    line-height: 40px;
+    width: auto;
+    font-size: 22px;
+}
+
+/* iphone 14 pr */
+@media screen and (max-width: 600px) { 
+
+    .header {
+        font-size: 10px;
+        height: 50px;
+    }
+
+    .dropbox {
+        display: none;
+    }
+    
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1, .box2, .box3 {
+        width: 85%;
+        margin: 5px auto;
+        height: fit-content;
+    }
+
+    .box3 {
+        display: block;
+    }
+    
+    img {
+        width: 100px;
+        margin: 10px 0px 0px 5px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
 }
